@@ -1,0 +1,310 @@
+.game-body {
+
+    display: flex;
+    flex-direction: row;
+    background-color: #0097E6;
+
+}
+
+.left-side {
+
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.left-side .players-field {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 15%;
+    width: 100%;
+
+}
+
+.left-side .players-field .player-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 7px 6px 6px 27px;
+}
+
+.left-side .players-field .player2-field-box .player2-field {
+    width: 68%;
+    height: 100%;
+}
+
+.left-side .players-field .player2-field-box .switcher {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 82px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #0097E6;
+    position: relative;
+}
+
+.left-side .players-field .player2-field-box .switcher .switcher-ball {
+
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 300ms;
+    right: 55px;
+
+}
+
+.left-side .players-field .player2-field-box .switcher:hover .switcher-ball {
+
+    right: 6px;
+
+}
+
+.left-side .match-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 23%;
+    width: 100%;
+}
+
+.left-side .match-type .title-match-type {
+    font-size: 17px;
+    font-family: 'Lato';
+    color: #45F391;
+    font-weight: 100;
+}
+
+
+.left-side .match-type .select-match-type{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-side .match-type .select-match-type .switcher-match-type {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 82px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    position: relative;
+}
+
+.left-side .match-type .select-match-type .switcher-match-type .switcher-match-type-ball {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 300ms;
+    right: 54px;
+}
+
+.left-side .match-type .select-match-type .switcher-match-type:hover .switcher-match-type-ball {
+    right: 6px;
+}
+
+.left-side .match-type .select-match-type .title-select-match-type  {
+    font-family: 'Lato';
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.left-side .match-type .button-start-match-type {
+    width: 80%;
+    min-height: 50px;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: #ffffff;
+    background-color: #45F391;
+}
+
+.left-side .match-type .button-start-match-type:hover {
+    box-shadow: 3px 3px 7px #000000;
+    opacity: 0.8;
+}
+
+.left-side .match-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.left-side .match-history .title-match-history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Lato';
+    color: #ffffff;
+    font-weight: 100;
+    height: 20%;
+    width: 100%;
+}
+
+.left-side .match-history .field-match-history {
+    height: 80%;
+    width: 100%;
+}
+
+.left-side .div-restart-match-history{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+
+}
+
+.left-side .div-restart-match-history .button-restart-match-history {
+    width: 80%;
+    min-height: 50px;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: #0097E6;
+}
+
+.left-side .div-restart-match-history .button-restart-match-history:hover {
+    box-shadow: 3px 3px 7px #000000;
+    opacity: 0.8;
+}
+
+.middle-side {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #2ca9ea;
+
+}
+
+.middle-side .scoreboard-game {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10%;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Lato';
+
+}
+
+.middle-side .scoreboard-game .score-box-player {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    color: #0097e6;
+    font-weight: bold;
+    cursor: default;
+}
+
+.middle-side .scoreboard-game .text-box-scoreboard-game {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    color: #0097e6;
+    font-weight: bold;
+    cursor: default;
+
+}
+
+.middle-side .scoreboard-game .text-box-scoreboard-game .scoreboard-title {
+    font-size: 21px;
+}
+
+.middle-side .scoreboard-game .text-box-scoreboard-game .player-name-title {
+    font-size: 17px;
+}
+
+.middle-side .field-game {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+
+.middle-side .field-game .window-box-field-game {
+
+    display: flex;
+    width: 29.3333%;
+    height: 30.3333%;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 130px;
+    font-weight: bold;
+    font-family: 'Lato';
+    color: #6A6A6A;
+    text-transform: uppercase;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+
+}
+
+.right-side .title-move-history-right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-family: 'Lato';
+    color: #ffffff;
+    font-weight: 100;
+    height: 5%;
+    width: 100%;
+}
+
+.right-side .move-history-right-side {
+    height: 73%;
+    width: 100%;
+}
