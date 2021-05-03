@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: row;
     background-color: #0097E6;
+    max-width: 1920px;
+    margin: 0 auto;
 
 }
 
@@ -31,7 +33,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 300px;
+    width: 80%;
     height: 40px;
     background-color: white;
     border-radius: 10px;
@@ -39,8 +41,13 @@
     padding: 7px 6px 6px 27px;
 }
 
+.left-side .players-field .player1-field-box .player1-field {
+    width: 100%;
+    height: 100%;
+}
+
 .left-side .players-field .player2-field-box .player2-field {
-    width: 68%;
+    width: 100%;
     height: 100%;
 }
 
@@ -63,7 +70,7 @@
     border-radius: 50%;
     position: absolute;
     transition-duration: 300ms;
-    right: 55px;
+    right: 61%;
 
 }
 
